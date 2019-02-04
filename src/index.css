@@ -1,0 +1,63 @@
+  div.task {
+  margin-top:1%;
+  position: relative;
+  border-width: 3px;
+  border-style: solid;
+  margin-left: 10%;
+  width: 70%;
+  display: inline-block;
+}
+p.task {
+  float: left;
+  padding: 5px;
+}
+img.del {
+  float: right;
+  height: 70px;
+  top: 10%;
+}
+button.add {
+  position: absolute;
+  margin-top: 4%;
+  height: 5%;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  border-width: 6px;
+  border-style: solid;
+  left: 65%;
+  width: 15%;
+  display: inline;
+  margin-bottom: 2%;
+}
+input.task{
+  font-size: 20px;
+  position: relative;
+  top: 2%;
+  margin-top: 4%;
+  border-width: 5px;
+  border-style: solid;
+  left: 10%;
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+p.status{
+  float: right;
+  right: 20%;
+  margin-top: 8%;
+  border: 4px dotted black;
+  border-top-left-radius: 20%; 
+  font-size: 20px;
+  margin-bottom: 0%;
+}
+.add_task_form {
+  background-color: burlywood;
+  border: 3px dotted brown;
+}
+.app {
+  border: 4px dashed black;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+  
+}
